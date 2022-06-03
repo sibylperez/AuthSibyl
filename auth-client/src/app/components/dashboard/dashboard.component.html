@@ -1,0 +1,27 @@
+<div class="limiter">
+    <div class="container-login100" style="background-image: url('../../../../assets/images/bg-01.jpg');">
+        <div class="wrap-login100 p-l-55 p-r-55 p-t-65 p-b-54">
+            <h1 style=" text-align: center">Authenticated User</h1>
+            <hr>
+            <br>
+            <h3 style="text-decoration: underline; text-align: center;">User Info</h3>
+
+            <div class="text-right p-t-8 p-b-15"></div>
+
+            <pre style="color: rgb(208, 0, 112); text-align: center">User name: {{user.name}}</pre>
+            <pre style="color: rgb(140, 71, 153); text-align: center">User email: {{user.email}}</pre>
+            <pre style="color: rgb(0, 50, 160); text-align: center">User ID: {{user.uid}}</pre>
+
+            <div class="text-right p-t-8 p-b-31"></div>
+
+            <div class="container-login100-form-btn">
+                <div class="wrap-login100-form-btn">
+                    <div class="login100-form-bgbtn"></div>
+                    <button class="login100-form-btn" (click)="logOut()">
+                        Logout
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
