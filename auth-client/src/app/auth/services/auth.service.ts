@@ -21,7 +21,7 @@ export class AuthService {
 
   //REGISTER USER
   register(name: string, email: string, password: string){
-    const url = `${this.baseUrl}/register`
+    const url = `${this.baseUrl}/auth/register`
     const body = { name, email, password }
     return this.http.post<AuthResponse>(url, body)
         .pipe(
@@ -39,7 +39,7 @@ export class AuthService {
 
   //LOGIN USER
   login(email: string, password: string){
-    const url = this.baseUrl
+    const url = `${this.baseUrl}/auth`
     const body = { email, password};
     return this.http.post<AuthResponse>(url, body)
       .pipe(
@@ -57,7 +57,7 @@ export class AuthService {
 
   //VALIDATE TOKEN
   validateToken(): Observable<boolean>{
-    const url = `${this.baseUrl}/renew`;
+    const url = `${this.baseUrl}/auth/renew`;
     const header = new HttpHeaders().set('x-token', localStorage.getItem('token') || '');
     return this.http.get<AuthResponse>(url, {headers: header})
           .pipe(
