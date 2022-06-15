@@ -24,9 +24,10 @@ Using the command <b>npm run dev</b>
 <br/>
 
 # Preview 
-![Captura1](https://user-images.githubusercontent.com/51963634/172224500-47379311-51df-449a-9acf-0e407f735f4b.PNG)
-![Captura2](https://user-images.githubusercontent.com/51963634/172224503-7dff7fa4-9878-4cb5-95df-96f98c03a528.PNG)
-![Captura3](https://user-images.githubusercontent.com/51963634/172224491-bda0ee63-fb8b-4ed2-a016-ee442b3d150b.PNG)
+![Captura4](https://user-images.githubusercontent.com/51963634/173923035-846174db-88d6-4540-92a0-1471d1cd3c42.PNG)
+![Captura5](https://user-images.githubusercontent.com/51963634/173923040-6f4c0206-b814-456b-9012-40f662cb3cb2.PNG)
+![Captura6](https://user-images.githubusercontent.com/51963634/173923043-42ad1e6c-047a-4fa6-8823-e2096fcc1942.PNG)
+
 
 # Deploy
 <img src="http://img.shields.io/badge/-Github-000000?style=flat&logo=github&logoColor=FFFFFF"> <img src="http://img.shields.io/badge/-Heroku-430098?style=flat&logo=heroku&logoColor=white"> 
